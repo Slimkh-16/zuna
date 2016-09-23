@@ -455,7 +455,7 @@ window.onload = function() {
   body.classList.add('loading')
   if (isMobile == true) {body.parentNode.classList.add('mobile'); }
   setTimeout(function(){body.classList.add('loaded')},1800)
-  setTimeout(function(){document.querySelector('.preloader').style.display = 'none';},2500)
+  setTimeout(function(){document.querySelector('.preloader').style.display = 'none';},3500)
   // //PRELOADER
   if(document.querySelector('.product-window') != undefined && window.innerWidth > 1023){
     prodWidth();
